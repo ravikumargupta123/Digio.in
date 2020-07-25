@@ -1,0 +1,83 @@
+.db-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    /* padding: 50px; */
+}
+.db-top-container {
+    width: 50%;
+    font-size: 20px;
+    position: absolute;
+    background: white;
+    border: 1px solid #dae1e9;
+}
+.db-top-container-header {
+    padding: 10px;
+    font-size: 20px;
+}
+.db-top-container-main {
+}
+
+/* border: 1px solid #dae1e9; */
+.db-main {
+    /* background-color: black; */
+    padding: 30px;
+    border: 1px solid;
+}
+
+.db-aadharVerifyButton {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 32px;
+    transition-duration: 0.4s;
+    margin: 10px 0px;
+    border-radius: 4px;
+}
+
+.active {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+
+.db-form {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* align-content: space-between; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.db-submit {
+    display: flex;
+    width: 40%;
+    /* justify-content: flex-end; */
+    align-items: center;
+    margin-left: 200px;
+}
+
+.db-button {
+    margin-left: 40px;
+}
+
+.db-successfully {
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 20px;
+    position: absolute;
+    background: white;
+    border: 1px solid #dae1e9;
+    background: green;
+    color: white;
+    padding: 20px;
+    width: 50%;
+}
+
+.db-success {
+    display: block;
+    color: green;
+    text-align: center;
+}
